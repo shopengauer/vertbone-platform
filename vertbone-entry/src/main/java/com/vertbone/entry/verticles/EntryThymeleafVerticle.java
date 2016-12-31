@@ -1,13 +1,15 @@
 package com.vertbone.entry.verticles;
 
 import io.vertx.core.AbstractVerticle;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 /**
  * Created by vasiliy on 31.12.16.
  */
 @Component
-public class EntryVerticle extends AbstractVerticle {
+@Profile(value = "thymeleaf")
+public class EntryThymeleafVerticle extends AbstractVerticle {
 
     @Override
     public void start() throws Exception {
