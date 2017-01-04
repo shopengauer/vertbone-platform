@@ -12,14 +12,15 @@ import org.springframework.stereotype.Component;
  * Created by vasiliy on 31.12.16.
  */
 @Component
-@Profile(value = "static")
+//@Profile(value = "static")
 public class EntryStaticVerticle extends AbstractVerticle {
 
     @Override
     public void start() throws Exception {
         super.start();
         final Router router = Router.router(vertx);
-        router.route().handler(StaticHandler.create());
+
+        router.route().handler(StaticHandler.create().setCachingEnabled(false).setWebRoot("webroot/web/"));
         vertx.createHttpServer().requestHandler(router::accept).listen(8080);
 
     }

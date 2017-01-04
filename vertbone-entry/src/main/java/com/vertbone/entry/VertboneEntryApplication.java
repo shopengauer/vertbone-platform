@@ -12,10 +12,10 @@ import javax.annotation.PostConstruct;
 @SpringBootApplication
 public class VertboneEntryApplication {
 
-	private final AbstractVerticle entryVerticle;
+	private final EntryStaticVerticle entryVerticle;
 
 	@Autowired
-	public VertboneEntryApplication(final AbstractVerticle entryVerticle) {
+	public VertboneEntryApplication(final EntryStaticVerticle entryVerticle) {
 		this.entryVerticle = entryVerticle;
 	}
 
