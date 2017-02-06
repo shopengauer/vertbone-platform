@@ -11,6 +11,10 @@
 	<name>vertbone-platform</name>
 	<description>Vertbone platform</description>
 
+    <modules>
+		<module>vertbone-entry</module>
+	</modules>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
