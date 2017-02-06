@@ -11,25 +11,7 @@ import 'package:angular2_components/angular2_components.dart';
 @Component(
   selector: 'my-app',
   styleUrls: const ['app_component.css'],
-  template: '''<h1>{{title}}</h1>
-               <h2>Current word is {{word.englishWord}}</h2>
-               <div>
-                Слово: <input [(ngModel)]="word.englishWord" placeholder="English word"/>
-                Перевод: <input #box (keyup.enter) = "addTranslateWord(box.value)" placeholder="Русский перевод"/>
-                         <button type="button" (click)="addTranslateWord(box.value)">Добавить</button>
-                         <button >Сохранить карточку</button>
-               </div>
-               <div>
-                  <h3>List of translates words</h3>
-                  <ul>
-                    <li *ngFor="let item of word.listOfTranslates">
-                      {{item}}
-                    </li>
-                  </ul>
-               </div>
-
-
-  ''',
+  templateUrl: 'app_component.html',
   directives: const [materialDirectives],
   providers: const [materialProviders],
 )
