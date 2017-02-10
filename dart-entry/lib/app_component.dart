@@ -3,7 +3,7 @@
 
 import 'package:angular2/core.dart';
 import 'package:angular2_components/angular2_components.dart';
-
+import 'word_card.dart';
 
 
 
@@ -12,7 +12,7 @@ import 'package:angular2_components/angular2_components.dart';
   selector: 'my-app',
   styleUrls: const ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: const [materialDirectives],
+  directives: const [materialDirectives,WordCard],
   providers: const [materialProviders],
 )
 class AppComponent {
