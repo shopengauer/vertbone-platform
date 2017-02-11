@@ -3,7 +3,7 @@
 
 import 'package:angular2/core.dart';
 import 'package:angular2_components/angular2_components.dart';
-import 'word_card.dart';
+import 'package:dart_entry/word_card/word_card.dart';
 
 
 
