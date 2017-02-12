@@ -4,15 +4,14 @@
 import 'package:angular2/core.dart';
 import 'package:angular2_components/angular2_components.dart';
 import 'package:dart_entry/word_card/word_card.dart';
-
-
+import 'package:dart_entry/main_layout/main_layout.dart';
 
 
 @Component(
   selector: 'my-app',
   styleUrls: const ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: const [materialDirectives,WordCard],
+  directives: const [materialDirectives,WordCard,MainLayout],
   providers: const [materialProviders],
 )
 class AppComponent {
@@ -38,8 +37,5 @@ class Word {
     listOfTranslates.add(translateWord);
     print(listOfTranslates);
   }
-
-
-
 
 }

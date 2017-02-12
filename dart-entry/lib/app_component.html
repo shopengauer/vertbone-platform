@@ -1,17 +1,19 @@
-<h1>{{title}}</h1>
-<h2>Текущее слово: {{word.englishWord}}</h2>
-<div>
-    Слово: <input [(ngModel)]="word.englishWord" placeholder="English word"/>
-    Перевод: <input #box (keyup.enter) = "addTranslateWord(box.value)" placeholder="Русский перевод"/>
-    <button type="button" (click)="addTranslateWord(box.value)">Добавить</button>
-    <button >Сохранить карточку</button>
-</div>
-<div>
-    <h3>List of translates words</h3>
-    <word-card></word-card>
-    <ul>
-        <li *ngFor="let item of word.listOfTranslates">
-            {{item}}
-        </li>
-    </ul>
-</div>
+<!--<h1>{{title}}</h1>-->
+<!--<h2>Текущее слово: {{word.englishWord}}</h2>-->
+<!--<div>-->
+    <!--Слово: <input [(ngModel)]="word.englishWord" placeholder="English word"/>-->
+    <!--Перевод: <input #box (keyup.enter) = "addTranslateWord(box.value)" placeholder="Русский перевод"/>-->
+    <!--<button type="button" (click)="addTranslateWord(box.value)">Добавить</button>-->
+    <!--<button >Сохранить карточку</button>-->
+<!--</div>-->
+<!--<div>-->
+    <!--<h3>List of translates words</h3>-->
+    <!--<word-card></word-card>-->
+    <!--<ul>-->
+        <!--<li *ngFor="let item of word.listOfTranslates">-->
+            <!--{{item}}-->
+        <!--</li>-->
+    <!--</ul>-->
+<!--</div>-->
+
+<main-layout></main-layout>
