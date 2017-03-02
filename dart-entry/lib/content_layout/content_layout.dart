@@ -9,7 +9,7 @@ import 'package:dart_entry/card_template/card_template.dart';
 class ContentLayout{
 
   List<String> mockWords = ['resolve','version','library','account','pretend','beverege','fry'
-    ,'havoc','Honorificabilitudinitatibus'];
+    ,'havoc', 'Honorificabilitudinitatibus'];
 
 
 }
