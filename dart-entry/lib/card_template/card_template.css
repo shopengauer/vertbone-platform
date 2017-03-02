@@ -12,8 +12,8 @@
 }
 
 .demo-card-square > .mdl-card__title {
-    color: #fff;
-    background: #d4e7f4;
+    color: #d4e7f4;
+    background: #6cc1f4;
 }
 
 .demo-card-square > .mdl-card__accent {
@@ -21,11 +21,15 @@
 }
 
 .demo-card-square > .mdl-card__media {
-    background: rgba(223, 242, 255, 0);
+    background: #f4f3e2;
+}
+
+.demo-card-square > .mdl-card--border {
+    background: rgba(244, 225, 193, 0.7);
 }
 
 body {
     padding: 20px;
-    background: #fafafa;
+    background: #d4e7f4;
     position: relative;
 }
