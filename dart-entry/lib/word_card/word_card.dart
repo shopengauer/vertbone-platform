@@ -1,26 +1,9 @@
 
+
 import 'package:angular2/core.dart';
 
 final List<TranslateUnit> mockWordCards =
         [new TranslateUnit("confidence",["уверенность","достоверность"])];
-
-
-@Component(
-  selector: 'word-card',
-  template: '''<div *ngFor="let item of listTranUnits">
-                    <p>{{item.englishWord}}</p>
-                    <div *ngFor = "let tr of item.rusTrans">{{tr}}</div>
-              </div>
-  '''
-)
-class WordCard{
-
-   List<TranslateUnit> listTranUnits = mockWordCards;
-
-}
-
-
-
 
 
 class TranslateUnit{

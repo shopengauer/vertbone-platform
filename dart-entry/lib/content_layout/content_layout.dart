@@ -1,5 +1,7 @@
 import 'package:angular2/core.dart';
 import 'package:dart_entry/card_template/card_template.dart';
+import 'package:dart_entry/translater_unit/tunit.dart';
+import 'lib.dart';
 
 @Component(
   selector: 'content',
@@ -8,4 +10,10 @@ import 'package:dart_entry/card_template/card_template.dart';
 )
 class ContentLayout{
 
+   List<TranslateUnit> mock = mockWordCards;
+
+
 }
+
+
+
