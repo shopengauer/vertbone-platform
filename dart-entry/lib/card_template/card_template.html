@@ -3,13 +3,20 @@
        <div style="padding-top: 50px">
            <div style="position: absolute; left: 50%;">
                <div style="position: relative; left: -50%">
-                   <h4>{{tword}}</h4>
+                   <h4 *ngIf="isTrans == false">{{cardWord.word}}</h4>
+                   <div *ngIf="isTrans == true">
+                       <ul>
+                           <li *ngFor="let w of cardWord.twords">
+                                {{w}} 
+                           </li>
+                       </ul>
+                   </div>
                </div>
            </div>
        </div>
     </div>
 
-    <div class="mdl-card__actions mdl-card--border">
+    <div (click)="reverse()" class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
             Перевод
         </a>

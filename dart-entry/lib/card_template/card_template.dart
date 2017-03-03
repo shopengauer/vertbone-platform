@@ -1,6 +1,6 @@
 import 'package:angular2/core.dart';
 import 'package:angular2_components/angular2_components.dart';
-
+import 'package:dart_entry/domain/TranslateUnit.dart';
 
 @Component(
  selector: 'card-template',
@@ -11,6 +11,13 @@ import 'package:angular2_components/angular2_components.dart';
 class CardTemplate{
 
    @Input()
-   String tword;
+   TranslateUnit cardWord;
+
+   bool isTrans = false;
+
+   reverse(){
+      isTrans = !isTrans;
+   }
+
 
 }

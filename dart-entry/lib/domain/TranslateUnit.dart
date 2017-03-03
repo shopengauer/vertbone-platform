@@ -4,7 +4,7 @@
 class TranslateUnit{
 
   String _word;
-  List<String> _twords;
+  List<String> _twords = [];
   TranslateUnit.wTrans(this._word, this._twords);
   TranslateUnit.woTrans(this._word);
 
