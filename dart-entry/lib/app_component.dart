@@ -15,7 +15,7 @@ import 'package:dart_entry/main_layout/main_layout.dart';
 )
 class AppComponent {
 
- final String title = 'English cards';
+
 
 
 

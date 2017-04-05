@@ -9,7 +9,7 @@ import 'package:dart_entry/content_layout/content_layout.dart';
 )
 class MainLayout{
 
-
-
+  final String title = 'Cash Management';
+  final String createAgreement = 'Создать договор';
 
 }
