@@ -14,27 +14,13 @@ import 'package:dart_entry/main_layout/main_layout.dart';
   providers: const [materialProviders],
 )
 class AppComponent {
-  String title = 'English cards';
-  Word word = new Word('emerge',['появляться','возникать']);
+
+ final String title = 'English cards';
 
 
-  // Nothing here yet. All logic is in HelloDialog.
-  void addTranslateWord(String translateWord){
-    word.addTranslateWord(translateWord);
-  }
+
 
 }
 
-class Word {
 
-  String englishWord;
-  List<String> listOfTranslates;
 
-  Word(this.englishWord,this.listOfTranslates);
-
-  void addTranslateWord(String translateWord){
-    listOfTranslates.add(translateWord);
-    print(listOfTranslates);
-  }
-
-}

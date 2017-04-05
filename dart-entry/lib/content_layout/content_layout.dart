@@ -10,8 +10,6 @@ import 'package:dart_entry/domain/TranslateUnit.dart';
 )
 class ContentLayout{
 
- final List<String> mockWords = ['resolve','version','library','account','pretend','beverege','fry'
-    ,'havoc', 'Honorificabilitudinitatibus'];
 
    List<TranslateUnit> vocabular = getUnitTestList();
 
