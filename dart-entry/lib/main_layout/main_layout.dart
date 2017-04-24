@@ -9,7 +9,8 @@ import 'package:dart_entry/content_layout/content_layout.dart';
 )
 class MainLayout{
 
-  final String title = 'Cash Management';
-  final String createAgreement = 'Создать договор';
+  final String title = 'English cards';
+  final String menu1 = 'My dictionary';
+  final String menu2 = 'Create dictionary';
 
 }

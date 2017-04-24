@@ -11,10 +11,12 @@ List<TranslateUnit> getUnitTestList(){
   TranslateUnit unit2 =  new TranslateUnit.wTrans('clarity',['ясность','прозрачность']);
   TranslateUnit unit3 =  new TranslateUnit.wTrans('grind',['молоть','растереть','шлифовать']);
   TranslateUnit unit4 =  new TranslateUnit.wTrans('crawl',['ползать','ползти','елозить']);
+  TranslateUnit unit5 =  new TranslateUnit.wTrans('master',['повелитель']);
 
   list.add(unit1);
   list.add(unit2);
   list.add(unit3);
   list.add(unit4);
+  list.add(unit5);
   return list;
 }

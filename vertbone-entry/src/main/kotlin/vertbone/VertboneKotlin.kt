@@ -26,9 +26,6 @@ open class VertboneKotlin {
         vertx.deployVerticle(staticVerticle)
     }
 
-
-
-
 }
 
 
