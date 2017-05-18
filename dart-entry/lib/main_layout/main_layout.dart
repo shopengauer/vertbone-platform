@@ -9,8 +9,10 @@ import 'package:dart_entry/content_layout/content_layout.dart';
 )
 class MainLayout{
 
-  final String title = 'English cards';
-  final String menu1 = 'My dictionary';
-  final String menu2 = 'Create dictionary';
+  final String title = 'Карточки';
+  final String menu1 = 'Мои словари';
+  final String menu2 = 'Новый словарь';
+  final String menu3 = 'Загрузить книгу';
+
 
 }
