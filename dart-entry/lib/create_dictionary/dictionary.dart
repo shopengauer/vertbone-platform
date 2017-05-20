@@ -3,13 +3,12 @@
 
 class Dictionary{
 
-  String dictName;
+  String name,type;
 
-  Dictionary(this.dictName);
+  Dictionary(this.name, this.type);
 
   @override
   String toString() {
-    return 'Dictionary{dictName: $dictName}';
+    return 'Dictionary{name: $name, type: $type}';
   }
-
 }
