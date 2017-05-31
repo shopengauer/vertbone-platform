@@ -1,5 +1,4 @@
 import 'package:angular2/angular2.dart';
-import 'package:angular_components/angular_components.dart';
 import 'package:dart_entry/create_dictionary/dictionary.dart';
 
 const List<String> _dictType = const [
@@ -10,8 +9,7 @@ const List<String> _dictType = const [
 @Component(
     selector: 'create-dict-form',
     templateUrl: 'dictionary_form.html',
-    directives: const [materialDirectives],
-    providers: const [materialProviders]
+    styleUrls: const ['material.css']
 )
 class DictionaryForm{
 
